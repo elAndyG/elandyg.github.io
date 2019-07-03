@@ -5,7 +5,7 @@ dist: trusty
 sudo: required
 branches:
   only:
-  - master
+  - dev
 script:
 - npm run lint
 - npm run test-headless
